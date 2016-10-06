@@ -7,8 +7,7 @@ import * as mutations from './mutations'
 Vue.use(Vuex)
 
 const state = {
-  count: 0,
-  history: []
+  count: 0
 }
 
 const store = new Vuex.Store({
